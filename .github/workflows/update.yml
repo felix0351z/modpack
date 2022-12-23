@@ -25,7 +25,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Go to source folder
-        run: cd modpack/modpack/client
+        run: cd /home/minecraft/actions-runner/work/modpack/modpack/client
         
       - name: Zip all
         run: |
@@ -43,7 +43,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Go to source folder
-        run: cd modpack/modpack/client
+        run: cd /home/minecraft/actions-runner/work/modpack/modpack/client
         
       - name: Update
         run: |
