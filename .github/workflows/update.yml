@@ -22,13 +22,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Go to source folder
-        run: cd /home/minecraft/actions-runner/work/modpack/modpack/client
         
       - name: Zip all
         run: |
+          cd /home/minecraft/actions-runner/work/modpack/modpack/client
           rm /var/www/html/client.zip
           zip -r /var/www/html/client.zip *
 # This workflow contains a single job called "build"
