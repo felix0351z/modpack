@@ -37,13 +37,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-
-      # Runs a single command using the runners shell
-      - name: Go to source folder
-        run: cd /home/minecraft/actions-runner/work/modpack/modpack/client
         
       - name: Update
         run: |
+          cd /home/minecraft/actions-runner/work/modpack/modpack/client
           screen -r minecraft -X quit
           rm -R /home/minecraft/mods/
           rm -R /home/minecraft/config/
