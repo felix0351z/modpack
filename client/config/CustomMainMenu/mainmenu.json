@@ -98,7 +98,7 @@
 			}
 		},
 		"issuetracker": {
-			"text": "Issue Tracker",
+			"text": "Modpack on GitHub",
 			"textOffsetX": 45,
 			"texture": "hexxit2:textures/mainmenu/btn.png",
 			"hoverTextColor": 10045439,
@@ -111,11 +111,11 @@
 			"imageHeight": 20,
 			"action": {
 				"type": "openLink",
-				"link": "https://bit.ly/Hexxit-II-Issue-Tracker"
+				"link": "https://github.com/felix0351z/modpack"
 			}
 		},
 		"discordtechnic": {
-			"text": "Technic's Discord",
+			"text": "Sigma Mod",
 			"textOffsetX": 37,
 			"texture": "hexxit2:textures/mainmenu/btn.png",
 			"hoverTextColor": 10045439,
@@ -128,11 +128,11 @@
 			"imageHeight": 20,
 			"action": {
 				"type": "openLink",
-				"link": "https://bit.ly/Hexxit-II-Technic-Discord-Invite"
+				"link": "https://github.com/felix0351z/Sigma"
 			}
 		},
 		"discordauthor": {
-			"text": "Jon's Discord",
+			"text": "More FPS",
 			"textOffsetX": 47,
 			"texture": "hexxit2:textures/mainmenu/btn.png",
 			"hoverTextColor": 10045439,
@@ -145,7 +145,7 @@
 			"imageHeight": 20,
 			"action": {
 				"type": "openLink",
-				"link": "https://bit.ly/Hexxit-II-Author-Discord-Invite"
+				"link": "https://r.mtdv.me/blog/posts/better-fps-mod"
 			}
 		},
 		"mods": {
@@ -220,7 +220,7 @@
 			"alignment": "bottom_right"
 		},
 		"hexxit2": {
-			"text": "Hexxit II 1.4.4",
+			"text": "Sigma 1.0",
 			"posX": 1,
 			"posY": 2,
 			"color": -1,
