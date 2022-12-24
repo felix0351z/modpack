@@ -37,7 +37,7 @@ jobs:
         
       - name: Update
         run: |
-          cd /home/minecraft/actions-runner/work/modpack/modpack/client
+          cd /home/minecraft/actions-runner/work/modpack/modpack/server
           screen -r minecraft -X quit
           rm -R /home/minecraft/mods/
           rm -R /home/minecraft/config/
