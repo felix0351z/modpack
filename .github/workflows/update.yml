@@ -38,7 +38,7 @@ jobs:
       - name: Update
         run: |
           cd /home/minecraft/actions-runner/work/modpack/modpack/client
-          screen -S minecraft -X stuff $'stop\n'
+          screen -r minecraft -X quit
           rm -R /home/minecraft/mods/
           rm -R /home/minecraft/config/
           cp -R mods/ /home/minecraft/
