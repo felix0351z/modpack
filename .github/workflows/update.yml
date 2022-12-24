@@ -44,5 +44,4 @@ jobs:
           cp -R mods/ /home/minecraft/
           cp -R config/ /home/minecraft/
           cd /home/minecraft
-          su minecraft
           ./start.sh
