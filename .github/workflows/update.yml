@@ -4,9 +4,6 @@ name: Update CLient/Server
 
 # Controls when the workflow will run
 on:
-# Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -41,7 +38,7 @@ jobs:
       - name: Update
         run: |
           cd /home/minecraft/actions-runner/work/modpack/modpack/client
-          screen -r minecraft -X quit
+          screen -S minecraft -X stuff $'stop\n'
           rm -R /home/minecraft/mods/
           rm -R /home/minecraft/config/
           cp -R mods/ /home/minecraft/
