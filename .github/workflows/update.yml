@@ -39,6 +39,7 @@ jobs:
         run: |
           cd /home/minecraft/actions-runner/work/modpack/modpack/server
           screen -r minecraft -X quit
+          screen -wipe
           rm -R /home/minecraft/mods/
           rm -R /home/minecraft/config/
           cp -R mods/ /home/minecraft/
